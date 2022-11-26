@@ -1,0 +1,248 @@
+#oval{
+  top: 40px;
+  position: relative;
+  margin: auto;
+  width: 400px;
+  height: 800px;
+  background: burlywood;
+  border-radius: 50%;
+}
+
+/* rectangle of the star */
+#rectangle{
+  position: absolute;
+  left: 180px;
+  right: 185px;
+  top: 50px;
+  height: 20px;
+  width: 30px;
+  background-color: gold;
+}
+
+.triangleTOP{
+  position: absolute;
+  margin-bottom: 10px;
+  width: 0;
+  height: 0;
+}
+
+/* top triangle of the star */
+#triangle1{
+  left: 180px;
+  right: 185px;
+  top: 20px;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 30px solid gold;
+}
+/*left triangle of the star*/
+#triangle3{
+  left: 150px;
+  right: 185px;
+  top: 50px;
+  border-bottom: 15px solid transparent;
+  border-left: 30px solid transparent;
+  border-top: 20px solid gold;
+}
+
+/*right triangle of the star*/
+#triangle4{
+  left: 210px;
+  right: 155px;
+  top: 50px;
+  border-bottom: 15px solid transparent;
+  border-right: 30px solid transparent;
+  border-top: 20px solid gold;
+}
+
+.triangleBOTTOM{
+  border-bottom: 25px solid gold;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+/* Bottom left triangle of the star */
+#triangle5{
+  left: 165px;
+  right: 155px;
+  top: 75px;
+  border-right: 40px solid transparent;
+  transform: rotate(110deg);
+}
+/* Bottom right triangle of the star*/
+#triangle6{
+  left: 185px;
+  right: 155px;
+  top: 75px;
+  border-left: 40px solid transparent;
+  transform: rotate(-110deg);
+}
+
+/* Class for the Ovals for the tree */
+.treeOval{
+  border-radius: 50%;
+  background: darkslategrey;
+  position: absolute;
+}
+
+/* Class for the Shadow Ovals for the tree */
+.shadow{
+  border-radius: 50%;
+  box-shadow: 0px 15px 0 5px black;
+  position: absolute;
+}
+
+/* Bottom oval of Tree */
+#treeOval5{
+  top: 430px;
+  left: 25px;
+  height: 100px;
+  width: 350px;
+}
+/* Shadow for the bottom oval of tree */
+#shadow5{
+  top: 430px;
+  left: 25px;
+  height: 100px;
+  width: 350px;
+  z-index: 1;
+}
+
+/* 4th oval of Tree */
+#treeOval4{
+  top: 330px;
+  left: 60px;
+  height: 90px;
+  width: 280px;
+}
+/*Shadow for 4th ocal of the tree*/
+#shadow4{
+  top: 330px;
+  left: 60px;
+  height: 90px;
+  width: 280px;
+  z-index: 1;
+}
+
+/* Third oval of Tree */
+#treeOval3{
+  top: 240px;
+  left: 95px;
+  height: 80px;
+  width: 210px;
+}
+/* Shadow for third oval of Tree */
+#shadow3{
+  top: 240px;
+  left: 95px;
+  height: 80px;
+  width: 210px;
+  z-index: 1;
+}
+
+/* Second oval of Tree */
+#treeOval2{
+  top: 160px;
+  left: 125px;
+  height: 70px;
+  width: 140px;
+}
+
+/* Shadow for second oval of Tree */
+#shadow2{
+  top: 160px;
+  left: 125px;
+  height: 70px;
+  width: 140px;
+  z-index: 1;
+}
+
+/* Top oval of Tree */
+#treeOval1{
+  top: 100px;
+  left: 150px;
+  height: 60px;
+  width: 90px;
+  z-index: 2;
+}
+
+/* Shadow for top oval of Tree */
+#shadow1{
+  top: 100px;
+  left: 150px;
+  height: 50px;
+  width: 90px;
+  z-index: 1;
+}
+
+/* Tree trunk */
+#treeTrunk{
+  position: absolute;
+  height: 180px;
+  width: 50px;
+  top: 540px;
+  left: 175px;
+  background: #6B2A20;
+  z-index: 0;
+}
+
+/* Class for the Christmas Balls*/
+.ball{
+  position: absolute;
+  border-radius: 100%;
+  height: 30px;
+  width: 30px;
+}
+
+/*ball1 BLUE*/
+#ball1{
+  left: 190px;
+  top: 170px;
+  background-color: blue;
+}
+
+/*ball2 GOLD*/
+#ball2{
+  left: 180px;
+  top: 350px;
+  background-color: #F00008;
+}
+
+/*ball3 RED*/
+#ball3{
+  left: 250px;
+  top: 440px;
+  background: #F0BC37;
+}
+
+/*ball4 GREEN*/
+#ball4{
+  left: 150px;
+  top: 250px;
+  background: #00F071;
+}
+
+/*ball5 PINK*/
+#ball5{
+  left: 120px;
+  top: 460px;
+  background: #E400F0;
+}
+
+/*Button*/
+/*
+button{
+  position: absolute;
+  border-radius: 20%;
+  left: 44%;
+  margin-top: 30px;
+  background-color: red;
+}
+*/
+
+
+
+
+
+

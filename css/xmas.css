@@ -1,0 +1,67 @@
+/* CSS for the grid box */
+.grid-box{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+    grid-template-rows: 100%;
+}
+
+/* CSS for the left Box (for the picture) */
+.box-1{
+    background: blue;
+}
+
+/* CSS for the box in the middle (Cristmas Customs) */
+.box-2{
+    background: green;
+}
+
+/* CSS for the right box (Youtube Video) */
+.box-3{
+    background: red;
+}
+
+/* CSS for the Rudolf Picture */
+#rudolf{
+    width: 80%;
+    height: auto;
+    border: 8px solid;
+    border-color: white; 
+}
+
+/* CSS styling for the QR Code with our names */
+#qr{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 10%;
+    height: 25%;
+    width: auto;
+}
+
+/* CSS styling for the Video */
+#video{
+    width: 80%;
+    height: 300px;
+}
+
+/* CSS for headers */
+h1{
+    font-style: oblique;
+}
+
+h2{
+    font-style: oblique;
+}
+
+
+/* CSS for cards */
+.card{
+    margin-top: 50px;
+    margin-left: 10%;
+}
+
+/* CSS for the unordered List with Christmas Customs within */
+ul{
+    font-size: large;
+}
